@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Orbitron&family=Oswald:wght@200;400&display=swap');
+.container .navbar-container .logo{
+    position: absolute;
+    margin-top: 20px;
+    width: 130px;
+}
+*{
+    margin-left:20px;
+   
+}
+.container .navbar-container li{
+    float: left;
+    display: inline;
+   position: relative; 
+}
+
+li:first-child{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container .navbar-container .list-item{
+    list-style-type: none;
+    left: 250px;
+    top: 30px;
+    font-weight: 550;
+    font-size: 20px;
+    font-family:Orbitron;
+    align-items: center;
+    overflow: hidden;
+    padding: 18PX;
+    
+}
+.container .navbar-container .search-icon{
+    position: absolute;
+   right:250px ;
+   top: 60px;
+   
+}
+.container .navbar-container .nav-button{
+    background-color: white;
+    position: absolute;
+    right: 80px;
+    top: 60px;
+    border-radius: 10px;
+    color: rgb(98, 94, 94);
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 24px;  
+    border-width: 3PX;
+   
+}
+
+.container .hero-container .star{
+    position: absolute;
+   top: 170px;
+   right: 90px;
+  
+}
+
+.container .hero-container .globe{
+    position: absolute;
+    left: 750px;
+    top: 140px;
+    
+}
+
+div>h1{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    font-size: 60px;
+    font-family: Orbitron;
+}
+.hero-container{
+    /* position: relative; */
+
+   
+}
+.container .hero-container .square{
+    position: absolute;
+    left: 231px;
+    bottom: 0px;
+
+}
+.container .hero-container .person{
+    position: absolute;
+    bottom: 60px;
+   
+   
+}
+.container .hero-container .hero-description{
+    position: absolute;
+     right: 100;
+     top: 350px;
+     display: inline;
+     text-align: center;
+     width: 600px;
+     font-family:Montserrat ;
+     color:rgb(73, 72, 72);
+     font-weight:bolder;
+     text-shadow: black 100px;
+     font-size: 14px;
+    
+}
+.container .hero-container .button-email{
+    position: absolute;
+    right: 450px;
+    bottom: 200px;
+    border-radius: 10PX;
+    font-size: 20PX;
+    font-family: Orbitron;
+    border-width: 3px;
+    font-weight: 450;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+  
+
+
+}
+.container .hero-container .button-join{
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+    border-radius: 10PX;
+    font-size: 20PX;
+    font-family: Orbitron;
+    border-width: 3px;
+    font-weight: 450;
+    color: white;
+    background-color: black;
+        
+
+}
+.container .hero-container .contact-heading{
+    position: absolute;
+   right: 400px;
+   bottom: 30px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: Montserrat;
+   color: black;
+
+}
+.container .hero-container .icons{
+    position: absolute;
+    bottom: 1px;
+    right: 300px;
+  
+}
